@@ -9,6 +9,8 @@
 
 ## :fire: Python核心语法
 
+- [初识Python](https://github.com/CyC2018/CS-Notes/blob/master/notes/剑指%20Offer%20题解%20-%20目录.md)
+
 ## :memo: 数据分析与挖掘
 
 ## :watermelon: 网络爬虫
