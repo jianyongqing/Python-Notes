@@ -11,7 +11,7 @@
 
 - [初识Python](https://github.com/jianyongqing/Python-Tutorial/blob/master/Notes/00.%E5%88%9D%E8%AF%86Python.md)
 
-- [基本语法](https://github.com/jianyongqing/Python-Tutorial/blob/master/Notes/00.%E5%88%9D%E8%AF%86Python.md)
+- [基本语法](https://github.com/jianyongqing/Python-Tutorial/blob/master/Notes/01.%E5%9F%BA%E6%9C%AC%E8%AF%AD%E6%B3%95.md)
 
 ## :memo: 数据分析与挖掘
 
