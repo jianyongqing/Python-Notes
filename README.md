@@ -21,7 +21,7 @@
 
 - [5.面向对象编程](https://github.com/jianyongqing/Python-Tutorial/blob/master/Notes/05.%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1%E7%BC%96%E7%A8%8B.md)
 
-- [6.字符串&列表&元组&字典](https://github.com/jianyongqing/Python-Tutorial/blob/master/Notes/02.%E5%AD%97%E7%AC%A6%E4%B8%B2%26%E5%88%97%E8%A1%A8%26%E5%85%83%E7%BB%84%26%E5%AD%97%E5%85%B8.md)
+- [6.图形用户界面和游戏开发](https://github.com/jianyongqing/Python-Tutorial/blob/master/Notes/06.%E5%9B%BE%E5%BD%A2%E7%94%A8%E6%88%B7%E7%95%8C%E9%9D%A2%E5%92%8C%E6%B8%B8%E6%88%8F%E5%BC%80%E5%8F%91.md)
 
 - [7.字符串&列表&元组&字典](https://github.com/jianyongqing/Python-Tutorial/blob/master/Notes/02.%E5%AD%97%E7%AC%A6%E4%B8%B2%26%E5%88%97%E8%A1%A8%26%E5%85%83%E7%BB%84%26%E5%AD%97%E5%85%B8.md)
 
