@@ -15,7 +15,7 @@
 
 - [2.字符串&列表&元组&字典](https://github.com/jianyongqing/Python-Tutorial/blob/master/Notes/02.%E5%AD%97%E7%AC%A6%E4%B8%B2%26%E5%88%97%E8%A1%A8%26%E5%85%83%E7%BB%84%26%E5%AD%97%E5%85%B8.md)
 
-- [3.函数及函数式编程](https://github.com/jianyongqing/Python-Tutorial/edit/master/Notes/03.%E5%87%BD%E6%95%B0%E4%B8%8E%E5%87%BD%E6%95%B0%E5%BC%8F%E7%BC%96%E7%A8%8B.md)
+- [3.函数及函数式编程](https://github.com/jianyongqing/Python-Tutorial/blob/master/Notes/03.%E5%87%BD%E6%95%B0%E5%8F%8A%E5%87%BD%E6%95%B0%E5%BC%8F%E7%BC%96%E7%A8%8B.md)
 
 - [4..字符串&列表&元组&字典](https://github.com/jianyongqing/Python-Tutorial/blob/master/Notes/02.%E5%AD%97%E7%AC%A6%E4%B8%B2%26%E5%88%97%E8%A1%A8%26%E5%85%83%E7%BB%84%26%E5%AD%97%E5%85%B8.md)
 
