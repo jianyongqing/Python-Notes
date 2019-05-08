@@ -9,7 +9,7 @@
 
 ## :fire: Python核心语法
 
-- [初识Python](https://github.com/CyC2018/CS-Notes/blob/master/notes/剑指%20Offer%20题解%20-%20目录.md)
+- [初识Python](https://github.com/jianyongqing/Python-Tutorial/blob/master/Notes/00.%E5%88%9D%E8%AF%86Python.md)
 
 ## :memo: 数据分析与挖掘
 
