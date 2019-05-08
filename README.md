@@ -15,7 +15,15 @@
 
 - [2.字符串&列表&元组&字典](https://github.com/jianyongqing/Python-Tutorial/blob/master/Notes/02.%E5%AD%97%E7%AC%A6%E4%B8%B2%26%E5%88%97%E8%A1%A8%26%E5%85%83%E7%BB%84%26%E5%AD%97%E5%85%B8.md)
 
-
+- [2.字符串&列表&元组&字典](https://github.com/jianyongqing/Python-Tutorial/blob/master/Notes/02.%E5%AD%97%E7%AC%A6%E4%B8%B2%26%E5%88%97%E8%A1%A8%26%E5%85%83%E7%BB%84%26%E5%AD%97%E5%85%B8.md)
+- [2.字符串&列表&元组&字典](https://github.com/jianyongqing/Python-Tutorial/blob/master/Notes/02.%E5%AD%97%E7%AC%A6%E4%B8%B2%26%E5%88%97%E8%A1%A8%26%E5%85%83%E7%BB%84%26%E5%AD%97%E5%85%B8.md)
+- [2.字符串&列表&元组&字典](https://github.com/jianyongqing/Python-Tutorial/blob/master/Notes/02.%E5%AD%97%E7%AC%A6%E4%B8%B2%26%E5%88%97%E8%A1%A8%26%E5%85%83%E7%BB%84%26%E5%AD%97%E5%85%B8.md)
+- [2.字符串&列表&元组&字典](https://github.com/jianyongqing/Python-Tutorial/blob/master/Notes/02.%E5%AD%97%E7%AC%A6%E4%B8%B2%26%E5%88%97%E8%A1%A8%26%E5%85%83%E7%BB%84%26%E5%AD%97%E5%85%B8.md)
+- [2.字符串&列表&元组&字典](https://github.com/jianyongqing/Python-Tutorial/blob/master/Notes/02.%E5%AD%97%E7%AC%A6%E4%B8%B2%26%E5%88%97%E8%A1%A8%26%E5%85%83%E7%BB%84%26%E5%AD%97%E5%85%B8.md)
+- [2.字符串&列表&元组&字典](https://github.com/jianyongqing/Python-Tutorial/blob/master/Notes/02.%E5%AD%97%E7%AC%A6%E4%B8%B2%26%E5%88%97%E8%A1%A8%26%E5%85%83%E7%BB%84%26%E5%AD%97%E5%85%B8.md)
+- [2.字符串&列表&元组&字典](https://github.com/jianyongqing/Python-Tutorial/blob/master/Notes/02.%E5%AD%97%E7%AC%A6%E4%B8%B2%26%E5%88%97%E8%A1%A8%26%E5%85%83%E7%BB%84%26%E5%AD%97%E5%85%B8.md)
+- [2.字符串&列表&元组&字典](https://github.com/jianyongqing/Python-Tutorial/blob/master/Notes/02.%E5%AD%97%E7%AC%A6%E4%B8%B2%26%E5%88%97%E8%A1%A8%26%E5%85%83%E7%BB%84%26%E5%AD%97%E5%85%B8.md)
+- [2.字符串&列表&元组&字典](https://github.com/jianyongqing/Python-Tutorial/blob/master/Notes/02.%E5%AD%97%E7%AC%A6%E4%B8%B2%26%E5%88%97%E8%A1%A8%26%E5%85%83%E7%BB%84%26%E5%AD%97%E5%85%B8.md)
 ## :memo: 数据分析与挖掘
 
 ## :watermelon: 网络爬虫
