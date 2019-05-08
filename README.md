@@ -48,3 +48,15 @@
 ## :pencil2: 算法
 
 ## :floppy_disk: 数据库
+
+- 数据库系统原理
+
+- SQL基本操作
+
+- MySQL
+
+- Redis
+
+- MongDB
+
+
