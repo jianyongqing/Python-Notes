@@ -48,7 +48,7 @@
 
 ## :art: 开发框架
 
-- [Django]()
+- [Django](https://github.com/jianyongqing/Python-Tutorial/blob/master/Notes-Two/%E5%BC%80%E5%8F%91%E6%A1%86%E6%9E%B6/Django/Django_README.md)
 
 ## :pencil2: 算法
 
