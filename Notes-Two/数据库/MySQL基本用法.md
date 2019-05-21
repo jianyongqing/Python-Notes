@@ -33,10 +33,44 @@ SHOW VARIABLES -- 显示系统变量信息
 
 ## 2.1 数据库操作
 
+1. 创建数据库
+
 ```SQL
-    
+create database 数据库名;
+
+create database if not exists 数据库名; -- 如果不存在则创建 
 ```
+
+2. 删除数据库
+
+```SQL
+drop database 数据库名称;
+```
+
+3. 查看MySQL服务器中的所有数据库
+
+```SQL
+show databases; -- 查看MySQL服务器中的所有数据库
+```
+
+4. 查看某个数据库的定义信息
+
+```SQL
+show create database 数据库名;
+```
+
+5.使用或切换数据库
+
+```SQL
+use 数据库名; -- 使用或切换数据库
+
+select database(); -- 查看当前数据库
+
+select now(), user(), version(); -- 显示当前时间、用户名、数据库版本
+```
+
 ## 2.2 表的操作
+
 
 # 三、 DML(数据操作语言)
 
