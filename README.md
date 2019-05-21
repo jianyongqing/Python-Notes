@@ -68,7 +68,7 @@
 
 - MySQL
   - [MySQL基本用法](https://github.com/jianyongqing/Python-Tutorial/blob/master/Notes-Two/%E6%95%B0%E6%8D%AE%E5%BA%93/MySQL%E5%9F%BA%E6%9C%AC%E7%94%A8%E6%B3%95.md)
-  - 高性能MySQL
+  - [高性能MySQL](https://github.com/jianyongqing/Python-Tutorial/blob/master/Notes-Two/%E6%95%B0%E6%8D%AE%E5%BA%93/%E9%AB%98%E6%80%A7%E8%83%BDMySQL.md)
 
 - [Redis](https://github.com/jianyongqing/Python-Tutorial/blob/master/Notes-Two/%E6%95%B0%E6%8D%AE%E5%BA%93/Redis.md)
 
