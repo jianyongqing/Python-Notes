@@ -67,7 +67,7 @@
 - [数据库系统原理](https://github.com/jianyongqing/Python-Tutorial/blob/master/Notes-Two/%E6%95%B0%E6%8D%AE%E5%BA%93/%E6%95%B0%E6%8D%AE%E5%BA%93%E7%B3%BB%E7%BB%9F%E5%8E%9F%E7%90%86.md)
 
 - MySQL
-  - [MySQL基本用法](https://github.com/jianyongqing/Python-Tutorial/blob/master/Notes-Two/%E6%95%B0%E6%8D%AE%E5%BA%93/MySQL.md)
+  - [MySQL基本用法](https://github.com/jianyongqing/Python-Tutorial/blob/master/Notes-Two/%E6%95%B0%E6%8D%AE%E5%BA%93/MySQL%E5%9F%BA%E6%9C%AC%E7%94%A8%E6%B3%95.md)
   - 高性能MySQL
 
 - [Redis](https://github.com/jianyongqing/Python-Tutorial/blob/master/Notes-Two/%E6%95%B0%E6%8D%AE%E5%BA%93/Redis.md)
