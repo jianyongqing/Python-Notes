@@ -128,18 +128,37 @@ alter table 表名 add 列名 列类型; --添加列
 
 > 数据操作语言：简称DML(Data Manipulation Language)，用来对数据库中表的`记录`进行更新。关键字：insert，delete，update等
 
-> 首先先知道查询表中所有数据的语句:`select * from 表名;`
-
       提示:在mysql中,字符串类型和日期类型都要用单引号括起来: ‘tom’,‘2015-09-04’ ;空值：null
 
+> 首先先知道查询表中所有数据的语句:`select * from 表名;`
+
 ## 3.1 插入操作 insert
+
 ```SQL
-insert into 表名（列名1，列名2 ...）VALUES(列值1，列值2...);
+insert into 表名 values(列值1，列值2,...);
+
+-- 批量插入
+insert into 表名 values(列值1，列值2,...),(列值1，列值2,...),...;
 ```
 
+      注意:
+            1.列名与与列值的类型、个数、顺序要一一对应
+            2.值不要超出列定义的长度
+            3.如果插入空值，请使用null
+            4.插入的日期和字符一样，都使用引号括起来
+            
 ## 3.2 修改操作 update
 
+```SQL
+update 表名 set 列名1=列值1，列名2=列值2,... where 列名=值;
+```
+
 ## 3.3 删除操作 delete
+
+```SQL
+delete from 表名 [WHERE 列名=值];
+```
+
 
 
 # 四、DQL(数据查询语言)
