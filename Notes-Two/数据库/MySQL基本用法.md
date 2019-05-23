@@ -2,6 +2,19 @@
 
 ## 1.1 基础知识
 
+> 结构化查询语言(Structured Query Language)简称SQL，是一种数据库查询和程序设计语言，用于存取数据以及查询、更新和管理关系数据库系统。 
+
+1. MySQL数据类型
+
+> MySQL支持多种类型，大致可以分为三类：数值、日期/时间和字符串(字符)类型
+
+- 数值类型
+
+- 日期和时间类型
+
+- 字符类型
+
+2. 注释
 SQL 支持以下三种注释：
 ```SQL
 # 注释
@@ -19,10 +32,14 @@ FROM mytable; -- 注释
     net start mysql
 -- 创建Windows服务
     sc create mysql binPath= mysqld_bin_path(注意：等号与值之间有空格)
+    
 /* 连接与断开服务器 */
+
 mysql -h 地址 -P 端口 -u 用户名 -p 密码
-SHOW PROCESSLIST -- 显示哪些线程正在运行
-SHOW VARIABLES -- 显示系统变量信息
+
+show processlist -- 显示哪些线程正在运行
+
+show variables -- 显示系统变量信息
 ```
 
 > 以管理员的身份运行cmd（命令提示符），输入如下命令进入MySQL命令模式：mysql -u root -p
@@ -159,13 +176,23 @@ update 表名 set 列名1=列值1，列名2=列值2,... where 列名=值;
 delete from 表名 [WHERE 列名=值];
 ```
 
-
-
-# 四、DQL(数据查询语言)
+# 四、DQL(数据查询语言)-非常重要
 
 > 数据查询语言：简称DQL(Data Query Language)，用来查询数据库中表的记录。关键字：select，from，where等
 
+    数据库执行DQL语句不会对数据进行改变，而是让数据库发送结果集给客户端。查询返回的结果集是一张 虚拟表。
 
+```SQL
+select 列名 from 表名 [where -> group by -> having -> order by];
+```
+
+      select selection_list         要查询的列名称 
+      from table_list               查询的表名称
+      where condition               行条件
+      group by grouping_columns     对结果分组 
+      having condition              分组后的行条件
+      order by sorting_columns      对结果分组
+      limit offset_start, row_count 结果限定
 
 
 
