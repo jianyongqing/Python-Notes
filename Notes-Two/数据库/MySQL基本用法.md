@@ -130,6 +130,29 @@ alter table 表名 add 列名 列类型; --添加列
 
 > 首先先知道查询表中所有数据的语句:`select * from 表名;`
 
-      提示:
-      在mysql中,字符串类型和日期类型都要用单引号括起来: ‘tom’,‘2015-09-04’ ;空值：null
+      提示:在mysql中,字符串类型和日期类型都要用单引号括起来: ‘tom’,‘2015-09-04’ ;空值：null
+
+## 3.1 插入操作 insert
+```SQL
+insert into 表名（列名1，列名2 ...）VALUES(列值1，列值2...);
+```
+
+## 3.2 修改操作 update
+
+## 3.3 删除操作 delete
+
+
+# 四、DQL(数据查询语言)
+
+> 数据查询语言：简称DQL(Data Query Language)，用来查询数据库中表的记录。关键字：select，from，where等
+
+
+
+
+
+
+
+
+
+
 
