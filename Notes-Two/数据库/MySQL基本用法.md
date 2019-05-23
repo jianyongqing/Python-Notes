@@ -126,5 +126,9 @@ alter table 表名 add 列名 列类型; --添加列
 
 # 三、 DML(数据操作语言)
 
+> 数据操作语言：简称DML(Data Manipulation Language)，用来对数据库中表的`记录`进行更新。关键字：insert，delete，update等
+
 > 首先先知道查询表中所有数据的语句:`select * from 表名;`
+
+DML是对表中的数据进行增、删、改的操作。不要与DDL混淆了,包含:
 
