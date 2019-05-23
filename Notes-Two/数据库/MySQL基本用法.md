@@ -71,6 +71,60 @@ select now(), user(), version(); -- 显示当前时间、用户名、数据库�
 
 ## 2.2 表的操作
 
+1. 创建表
+
+```SQL
+create table 表名(
+   字段名 类型(长度) 约束,
+   字段名 类型(长度) 约束
+);
+```
+
+2. 主键约束
+
+主键是用于标识当前记录的字段。它的特点是非空，唯一。在开发中一般情况下主键是 不具备任何含义，只是用于标识当前记录
+
+```SQL
+create table 表名(
+    id int primary key, -- 在创建表时创建主键,在字段后面加上 primary key
+    ....
+);
+
+alter table 表名 drop primary key; -- 删除主键
+
+```
+
+3. 查看表
+
+```SQL
+show tables; --查看数据库中所有的表
+
+desc 表名; -- 查看表结构
+
+show create table 表名; -- 查看建表语句
+```
+
+4. 删除表
+
+```SQL
+drop table 表名;
+```
+
+5. 修改表结构
+
+```SQL
+alter table 表名 drop 列名; -- 删除列
+
+rename table 表名 to 新表名; -- 修改表名
+
+alter table 表名 character set 字符集; -- 修改表的字符集
+
+alter table 表名 change 列名 新列名 列类型; -- 修改列名
+
+alter table 表名 add 列名 列类型; --添加列
+```
 
 # 三、 DML(数据操作语言)
+
+> 首先先知道查询表中所有数据的语句:`select * from 表名;`
 
