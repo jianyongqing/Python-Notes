@@ -194,9 +194,40 @@ select 列名 from 表名 [where -> group by -> having -> order by];
       order by sorting_columns      对结果分组
       limit offset_start, row_count 结果限定
 
+## 4.1 基础查询
 
+```MySQL
 
+select * from 表名; -- 查询所有列
 
+select 列名1,列名2,... from 表名; --查询指定列
+
+```
+
+## 4.2 条件查询
+
+      条件查询就是在查询时给出where子句，在where子句中可以使用如下运算符及关键字:
+           =、!=、<>、<、<=、>、>=；
+           between...and；
+           in(set)；
+           is null； is not null;
+           and;
+           or;
+           not;
+
+## 4.3 模糊查询
+
+## 4.4 字段控制查询
+
+## 4.5 排序
+
+## 4.6 聚合函数
+
+## 4.7 分组查询
+
+## 4.8 Limit
+
+# 五、多表查询
 
 
 
