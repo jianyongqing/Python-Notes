@@ -310,8 +310,7 @@ select job,deptno,avg(sal) from emp group by job, deptno having avg(sal) > 1000;
 select * from 表名 limit 0,5; -- 查询5行记录，起始行从0开始
 ```
 
-> 查询语句的书写顺序: `select – from - where - group by - having - order by -limit`
-> 查询语句的执行顺序: `from - where - group by - having - select - order by - limit`
+> 查询语句的书写顺序: `select – from - where - group by - having - order by -limit`<br/>查询语句的执行顺序: `from - where - group by - having - select - order by - limit`
 
 # 五、 DCL(数据控制语言)
 
