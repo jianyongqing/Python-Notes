@@ -34,7 +34,7 @@
 
 - [11.正则表达式](https://github.com/jianyongqing/Python-Tutorial/blob/master/Notes/11.%E6%AD%A3%E5%88%99%E8%A1%A8%E8%BE%BE%E5%BC%8F.md)
 
-- [12.数据库编程](https://github.com/jianyongqing/Python-Tutorial/blob/master/Notes/12.%E6%95%B0%E6%8D%AE%E5%BA%93%E7%BC%96%E7%A8%8B.md)
+- [12.Python数据库编程](https://github.com/jianyongqing/Python-Tutorial/blob/master/Notes/12.Python%E6%95%B0%E6%8D%AE%E5%BA%93%E7%BC%96%E7%A8%8B.md)
 
 - [13.web开发](https://github.com/jianyongqing/Python-Tutorial/blob/master/Notes/13.web%E5%BC%80%E5%8F%91.md)
 
