@@ -49,6 +49,7 @@
 SQL 支持以下三种注释：
 
 ```SQL
+# 注释
 select * from mytable; -- 注释
 /* 注释
    注释 */
