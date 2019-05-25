@@ -66,7 +66,7 @@
 
 - [数据库系统原理](https://github.com/jianyongqing/Python-Tutorial/blob/master/Notes-Two/%E6%95%B0%E6%8D%AE%E5%BA%93/%E6%95%B0%E6%8D%AE%E5%BA%93%E7%B3%BB%E7%BB%9F%E5%8E%9F%E7%90%86.md)
 
-- [SQL语句实战](https://github.com/jianyongqing/Python-Tutorial/blob/master/Notes-Two/%E6%95%B0%E6%8D%AE%E5%BA%93/SQL%E8%AF%AD%E8%A8%80%E5%AE%9E%E6%88%98.sql)
+- [SQL语言实战](https://github.com/jianyongqing/Python-Tutorial/blob/master/Notes-Two/%E6%95%B0%E6%8D%AE%E5%BA%93/SQL%E8%AF%AD%E8%A8%80%E5%AE%9E%E6%88%98.sql)
 
 - MySQL
   - [MySQL基本用法](https://github.com/jianyongqing/Python-Tutorial/blob/master/Notes-Two/%E6%95%B0%E6%8D%AE%E5%BA%93/MySQL%E5%9F%BA%E6%9C%AC%E7%94%A8%E6%B3%95.md)
