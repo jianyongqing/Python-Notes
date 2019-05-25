@@ -158,7 +158,7 @@ update tb_score set score=null where sid=1002 and cid=1111;
 
 ----------------------------------------------------------------------------------------------------------------------------------------
 
-/* 3. DQL */
+/* 3. DQL(数据查询语言) */
 -- 查询所有学生信息
 select * from tb_student;
 select stuid, stuname, stusex, stubirth, stuaddr, collid 
