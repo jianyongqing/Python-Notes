@@ -1,4 +1,4 @@
-/* DDL */
+/* 1. DDL(数据定义语言) */
 -- 创建数据库SRS
 drop database if exists SRS;
 create database SRS default charset utf8;
@@ -80,3 +80,78 @@ alter table tb_score add constraint ck_score_score check (score between 0 and 10
 -- 添加外键约束
 alter table tb_score add constraint fk_score_sid foreign key (sid) references tb_student (stuid);
 alter table tb_score add constraint fk_score_cid foreign key (cid) references tb_course (courseid);
+
+----------------------------------------------------------------------------------------------------------------------------------------
+
+/* 2. DML(数据操作语言) */
+-- 插入学院数据
+insert into tb_college 
+(collname, collmaster, collweb) values 
+('计算机学院', '左冷禅', 'http://www.abc.com'),
+('外国语学院', '岳不群', 'http://www.xyz.com'),
+('经济管理学院', '风清扬', 'http://www.foo.com');
+
+-- 插入学生数据
+insert into tb_student 
+(stuid, stuname, stusex, stubirth, stuaddr, collid) values
+(1001, '向问天', 1, '1990-3-4', '四川成都', 1),
+(1002, '任我行', 1, '1992-2-2', '湖南长沙', 1),
+(1033, '任盈盈', 0, '1989-12-3', '湖南长沙', 1),
+(1572, '余沧海', 1, '1993-7-19', '四川成都', 1),
+(1378, '岳灵珊', 0, '1995-8-12', '四川绵阳', 1),
+(1954, '林平之', 1, '1994-9-20', '福建莆田', 1),
+(2035, '令狐冲', 1, '1988-6-30', '陕西咸阳', 2),
+(3011, '林震南', 1, '1985-12-12', '福建莆田', 3),
+(3755, '龙傲天', 1, '1993-1-25', '广东东莞', 3),
+(3923, '向天问', 0, '1985-4-17', '四川成都', 3),
+(2177, '隔壁老王', 1, '1989-11-27', '四川成都', 2);
+
+-- 插入老师数据
+insert into tb_teacher 
+(teacherid, tname, ttitle, collid) values 
+(1122, '张三丰', '教授', 1),
+(1133, '宋远桥', '副教授', 1),
+(1144, '杨逍', '副教授', 1),
+(2255, '范遥', '副教授', 2),
+(3366, '韦一笑', '讲师', 3);
+
+-- 插入课程数据
+insert into tb_course
+(courseid, cname, ccredit, tid) values 
+(1111, 'Python程序设计', 3, 1122),
+(2222, 'Web前端开发', 2, 1122),
+(3333, '操作系统', 4, 1122),
+(4444, '计算机网络', 2, 1133),
+(5555, '编译原理', 4, 1144),
+(6666, '算法和数据结构', 3, 1144),
+(7777, '经贸法语', 3, 2255),
+(8888, '成本会计', 2, 3366),
+(9999, '审计', 3, 3366);
+
+-- 插入选课数据
+insert into tb_score 
+(sid, cid, selectdate, score) values 
+(1001, 1111, now(), 95),
+(1001, 2222, now(), 87.5),
+(1001, 3333, now(), 100),
+(1001, 4444, now(), null),
+(1001, 6666, now(), 100),
+(1002, 1111, now(), 65),
+(1002, 5555, now(), 42),
+(1033, 1111, now(), 92.5),
+(1033, 4444, now(), 78),
+(1033, 5555, now(), 82.5),
+(1572, 1111, now(), 78),
+(1378, 1111, now(), 82),
+(1378, 7777, now(), 65.5),
+(2035, 7777, now(), 88),
+(2035, 9999, now(), 70),
+(3755, 1111, now(), 72.5),
+(3755, 8888, now(), 93),
+(3755, 9999, now(), null);
+
+-- 删除数据
+delete from tb_student where stuid=2177;
+
+-- 更新数据
+update tb_score set score=null where sid=1002 and cid=1111;
