@@ -155,3 +155,135 @@ delete from tb_student where stuid=2177;
 
 -- 更新数据
 update tb_score set score=null where sid=1002 and cid=1111;
+
+----------------------------------------------------------------------------------------------------------------------------------------
+
+/* 3. DQL */
+-- 查询所有学生信息
+select * from tb_student;
+select stuid, stuname, stusex, stubirth, stuaddr, collid 
+from tb_student;
+
+-- 查询所有课程名称及学分(投影和别名)
+select cname as 课程名称, ccredit as 学分 from tb_course;
+
+-- 查询所有女学生的姓名和出生日期(筛选)
+select stuname, stubirth from tb_student where stusex=0;
+
+-- 查询所有80后女学生的姓名、性别(显示成'女')和出生日期(筛选)
+select stuname, '女' as stusex, stubirth from tb_student 
+where stubirth between '1980-1-1' and '1989-12-31' and stusex=0;
+
+-- 查询姓“林”的学生姓名和性别(模糊)
+select stuname, if(stusex, '男', '女') as stusex 
+from tb_student where stuname like '林%';
+
+-- 查询姓“张”名字总共两个字的老师的姓名和职称(模糊)
+select tname from tb_teacher where tname like '张_';
+
+-- 查询姓“张”名字总共三个字的老师的姓名和职称(模糊)
+select tname, ttitle from tb_teacher where tname like '张__';
+
+-- 查询名字中有“天”字的学生的姓名(模糊)
+select stuname from tb_student where stuname like '%天%';
+
+-- 查询学生的籍贯(去重)
+select distinct stuaddr from tb_student 
+where stuaddr<>'' and stuaddr is not null;
+
+-- 查询男学生的姓名和生日按年龄从大到小排列(排序)
+select stuname, stubirth from tb_student 
+where stusex=1 order by stubirth asc;
+
+-- 查询年龄最大/最小的学生的出生日期(聚合函数)
+select min(stubirth) from tb_student;
+select max(stubirth) from tb_student;
+-- 查询学生/男学生/女学生的总人数
+select count(stuid) from tb_student;
+select count(stuid) from tb_student where stusex=1;
+select count(stuid) from tb_student where stusex=0;
+-- 查询1111课程的平均分/最低分/最高分/选课人数/考试人数
+select avg(score) from tb_score where cid=1111;
+select min(score) from tb_score where cid=1111;
+select max(score) from tb_score where cid=1111;
+select count(sid) from tb_score where cid=1111;
+select count(score) from tb_score where cid=1111;
+
+-- 查询男女学生的人数(分组和聚合函数)
+select if(stusex, '男', '女') as 性别, count(stusex) as 人数 
+from tb_student group by stusex order by 人数 desc;
+
+-- 查询学号为1001的学生所有课程的总成绩(筛选和聚合函数)
+select sum(score) as 总成绩 from tb_score where sid=1001;
+
+-- 查询每个学生的学号和平均成绩(分组和聚合函数)
+select sid as 学号, avg(score) as 平均分 from tb_score 
+where score is not null 
+group by sid 
+order by 平均分 desc;
+
+-- 查询平均成绩大于等于80分的学生的学号和平均成绩(分组后的筛选)
+select sid as 学号, avg(score) as 平均分 from tb_score 
+group by sid having 平均分>=80 
+order by 平均分 desc;
+
+-- 查询年龄最大的学生的姓名(子查询)
+select stuname from tb_student 
+where stubirth=(select min(stubirth) from tb_student);
+
+-- 查询选了三门及以上的课程的学生姓名(子查询/分组条件/集合运算)
+select stuname from tb_student where stuid in 
+(select sid from tb_score group by sid having count(sid)>=3);
+
+-- 查询课程名称、学分、授课老师的名字和职称
+select cname, ccredit, tname, ttitle 
+from tb_course, tb_teacher 
+where tid=teacherid;
+
+select cname, ccredit, tname, ttitle from tb_course 
+inner join tb_teacher on tid=teacherid;
+
+-- 查询学生姓名和所在学院名称
+select stuname, collname 
+from tb_student t1, tb_college t2 
+where t1.collid=t2.collid;
+
+select stuname, collname from tb_student t1 
+inner join tb_college t2 on t1.collid=t2.collid;
+
+-- 查询学生姓名、课程名称以及考试成绩
+select stuname, cname, score 
+from tb_student, tb_course, tb_score 
+where stuid=sid and courseid=cid 
+and score is not null;
+
+select stuname, cname, score from tb_student 
+inner join tb_score on stuid=sid
+inner join tb_course on courseid=cid 
+where score is not null;
+
+-- 查询选课学生的姓名和平均成绩(子查询和连接查询)
+select stuname, avgscore from tb_student,
+(select sid, avg(score) as avgscore from tb_score 
+group by sid) temp where sid=stuid;
+
+select stuname, avgscore from tb_student 
+inner join (select sid, avg(score) as avgscore 
+from tb_score group by sid) temp on sid=stuid;
+
+-- 查询每个学生的姓名和选课数量(左外连接和子查询)
+select stuname as 姓名, ifnull(total, 0) as 选课数量 
+from tb_student left outer join (select sid, count(sid) as total 
+from tb_score group by sid) temp on stuid=sid;
+
+----------------------------------------------------------------------------------------------------------------------------------------
+
+/* 4. DCL(数据控制语言) */
+-- 创建名为hellokitty的用户
+create user 'hellokitty'@'localhost' identified by '123123';
+
+-- 将对SRS数据库所有对象的所有操作权限授予hellokitty
+grant all privileges on SRS.* to 'hellokitty'@'localhost';
+
+-- 召回hellokitty对SRS数据库所有对象的insert/delete/update权限
+revoke insert, delete, update on SRS.* from 'hellokitty'@'localhost';
