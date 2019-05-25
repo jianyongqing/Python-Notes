@@ -1,3 +1,4 @@
+/* DDL */
 -- 创建数据库SRS
 drop database if exists SRS;
 create database SRS default charset utf8;
