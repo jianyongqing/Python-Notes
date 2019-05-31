@@ -9,9 +9,7 @@
 
 ## :fire: Python核心语法
 
-- [走进Python的世界](https://github.com/jianyongqing/Python-Tutorial/blob/master/Notes/00.%E8%B5%B0%E8%BF%9BPython%E7%9A%84%E4%B8%96%E7%95%8C.md)
-
-----------------------------------------------------------------------------------------------------------------------------------------
+> [走进Python的世界](https://github.com/jianyongqing/Python-Tutorial/blob/master/Notes/00.%E8%B5%B0%E8%BF%9BPython%E7%9A%84%E4%B8%96%E7%95%8C.md)
 
 - [1.基本语法](https://github.com/jianyongqing/Python-Tutorial/blob/master/Notes/01.%E5%9F%BA%E6%9C%AC%E8%AF%AD%E6%B3%95.md)
 
