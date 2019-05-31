@@ -23,26 +23,31 @@
 
   - [5.面向对象编程](https://github.com/jianyongqing/Python-Tutorial/blob/master/Notes/05.%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1%E7%BC%96%E7%A8%8B.md)
 
-- [6.图形用户界面和游戏开发](https://github.com/jianyongqing/Python-Tutorial/blob/master/Notes/06.%E5%9B%BE%E5%BD%A2%E7%94%A8%E6%88%B7%E7%95%8C%E9%9D%A2%E5%92%8C%E6%B8%B8%E6%88%8F%E5%BC%80%E5%8F%91.md)
+  - [6.图形用户界面和游戏开发](https://github.com/jianyongqing/Python-Tutorial/blob/master/Notes/06.%E5%9B%BE%E5%BD%A2%E7%94%A8%E6%88%B7%E7%95%8C%E9%9D%A2%E5%92%8C%E6%B8%B8%E6%88%8F%E5%BC%80%E5%8F%91.md)
 
-- [7.文件读取&数据存储](https://github.com/jianyongqing/Python-Tutorial/blob/master/Notes/07.%E6%96%87%E4%BB%B6%E8%AF%BB%E5%8F%96%26%E6%95%B0%E6%8D%AE%E5%AD%98%E5%82%A8.md)
+  - [7.文件读取&数据存储](https://github.com/jianyongqing/Python-Tutorial/blob/master/Notes/07.%E6%96%87%E4%BB%B6%E8%AF%BB%E5%8F%96%26%E6%95%B0%E6%8D%AE%E5%AD%98%E5%82%A8.md)
 
-- [8.设计模式&异常处理](https://github.com/jianyongqing/Python-Tutorial/blob/master/Notes/08.%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F%26%E5%BC%82%E5%B8%B8%E5%A4%84%E7%90%86.md)
+  - [8.设计模式&异常处理](https://github.com/jianyongqing/Python-Tutorial/blob/master/Notes/08.%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F%26%E5%BC%82%E5%B8%B8%E5%A4%84%E7%90%86.md)
 
-- [9.并发编程](https://github.com/jianyongqing/Python-Tutorial/blob/master/Notes/09.%E5%B9%B6%E5%8F%91%E7%BC%96%E7%A8%8B.md)
+- 第二部分: Python高级编程
 
-- [10.网络编程](https://github.com/jianyongqing/Python-Tutorial/blob/master/Notes/10.%E7%BD%91%E7%BB%9C%E7%BC%96%E7%A8%8B.md)
+  - [9.并发编程](https://github.com/jianyongqing/Python-Tutorial/blob/master/Notes/09.%E5%B9%B6%E5%8F%91%E7%BC%96%E7%A8%8B.md)
 
+  - [10.网络编程](https://github.com/jianyongqing/Python-Tutorial/blob/master/Notes/10.%E7%BD%91%E7%BB%9C%E7%BC%96%E7%A8%8B.md)
 
-- [11.正则表达式](https://github.com/jianyongqing/Python-Tutorial/blob/master/Notes/11.%E6%AD%A3%E5%88%99%E8%A1%A8%E8%BE%BE%E5%BC%8F.md)
+  - [11.正则表达式](https://github.com/jianyongqing/Python-Tutorial/blob/master/Notes/11.%E6%AD%A3%E5%88%99%E8%A1%A8%E8%BE%BE%E5%BC%8F.md)
 
-- [12.Python数据库编程](https://github.com/jianyongqing/Python-Tutorial/blob/master/Notes/12.Python%E6%95%B0%E6%8D%AE%E5%BA%93%E7%BC%96%E7%A8%8B.md)
+  - [12.Python数据库编程](https://github.com/jianyongqing/Python-Tutorial/blob/master/Notes/12.Python%E6%95%B0%E6%8D%AE%E5%BA%93%E7%BC%96%E7%A8%8B.md)
 
-- [13.web开发](https://github.com/jianyongqing/Python-Tutorial/blob/master/Notes/13.web%E5%BC%80%E5%8F%91.md)
+  - [13.web开发](https://github.com/jianyongqing/Python-Tutorial/blob/master/Notes/13.web%E5%BC%80%E5%8F%91.md)
 
-- [14.Python进阶](https://github.com/jianyongqing/Python-Tutorial/blob/master/Notes/14.Python%E8%BF%9B%E9%98%B6.md)
+- 第三部分: Python进阶
 
-- [15.让繁琐工作自动化](https://github.com/jianyongqing/Python-Tutorial/blob/master/Notes/15.%E8%AE%A9%E7%B9%81%E7%90%90%E5%B7%A5%E4%BD%9C%E8%87%AA%E5%8A%A8%E5%8C%96.md)
+  - [14.Python进阶](https://github.com/jianyongqing/Python-Tutorial/blob/master/Notes/14.Python%E8%BF%9B%E9%98%B6.md)
+
+- 第四部分: 让繁琐工作自动化
+
+  - [15.让繁琐工作自动化](https://github.com/jianyongqing/Python-Tutorial/blob/master/Notes/15.%E8%AE%A9%E7%B9%81%E7%90%90%E5%B7%A5%E4%BD%9C%E8%87%AA%E5%8A%A8%E5%8C%96.md)
 
 ## :memo: 数据分析与挖掘
 
