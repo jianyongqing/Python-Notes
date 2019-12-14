@@ -41,13 +41,9 @@
 
   - [13.web开发](https://github.com/jianyongqing/Python-Tutorial/blob/master/Notes/13.web%E5%BC%80%E5%8F%91.md)
 
-- 第三部分: Python进阶
+- 第三部分: 让繁琐工作自动化
 
-  - [14.Python进阶](https://github.com/jianyongqing/Python-Tutorial/blob/master/Notes/14.Python%E8%BF%9B%E9%98%B6.md)
-
-- 第四部分: 让繁琐工作自动化
-
-  - [15.让繁琐工作自动化](https://github.com/jianyongqing/Python-Tutorial/blob/master/Notes/15.%E8%AE%A9%E7%B9%81%E7%90%90%E5%B7%A5%E4%BD%9C%E8%87%AA%E5%8A%A8%E5%8C%96.md)
+  - [14.让繁琐工作自动化](https://github.com/jianyongqing/Python-Tutorial/blob/master/Notes/15.%E8%AE%A9%E7%B9%81%E7%90%90%E5%B7%A5%E4%BD%9C%E8%87%AA%E5%8A%A8%E5%8C%96.md)
 
 ----------------------------------------------------------------------------------------------------------------------------------------
 
