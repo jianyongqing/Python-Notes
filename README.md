@@ -19,7 +19,7 @@
 
   - [3.函数及函数式编程](https://github.com/jianyongqing/Python-Tutorial/blob/master/Notes/03.%E5%87%BD%E6%95%B0%E5%8F%8A%E5%87%BD%E6%95%B0%E5%BC%8F%E7%BC%96%E7%A8%8B.md)
 
-  - [Python高级特性](https://github.com/jianyongqing/Python-Tutorial/blob/master/Notes/03.%E5%87%BD%E6%95%B0%E5%8F%8A%E5%87%BD%E6%95%B0%E5%BC%8F%E7%BC%96%E7%A8%8B.md)
+  - [Python高级特性](https://github.com/jianyongqing/Python-Tutorial/blob/master/Notes/Python%E9%AB%98%E7%BA%A7%E7%89%B9%E6%80%A7.md)
 
   - [4.面向对象编程](https://github.com/jianyongqing/Python-Tutorial/blob/master/Notes/04.%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1%E7%BC%96%E7%A8%8B.md)
   
