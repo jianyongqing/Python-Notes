@@ -43,7 +43,7 @@
 
 - 第三部分: 让繁琐工作自动化
 
-  - [14.让繁琐工作自动化](https://github.com/jianyongqing/Python-Tutorial/blob/master/Notes/15.%E8%AE%A9%E7%B9%81%E7%90%90%E5%B7%A5%E4%BD%9C%E8%87%AA%E5%8A%A8%E5%8C%96.md)
+  - [14.让繁琐工作自动化](https://github.com/jianyongqing/Python-Tutorial/blob/master/Notes/14.%E8%AE%A9%E7%B9%81%E7%90%90%E5%B7%A5%E4%BD%9C%E8%87%AA%E5%8A%A8%E5%8C%96.md)
 
 ----------------------------------------------------------------------------------------------------------------------------------------
 
