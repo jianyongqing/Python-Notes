@@ -19,9 +19,9 @@
 
   - [3.函数及函数式编程](https://github.com/jianyongqing/Python-Tutorial/blob/master/Notes/03.%E5%87%BD%E6%95%B0%E5%8F%8A%E5%87%BD%E6%95%B0%E5%BC%8F%E7%BC%96%E7%A8%8B.md)
 
-  - [4.模块&包](https://github.com/jianyongqing/Python-Tutorial/blob/master/Notes/04.%E6%A8%A1%E5%9D%97%26%E5%8C%85.md)
-
-  - [5.面向对象编程](https://github.com/jianyongqing/Python-Tutorial/blob/master/Notes/05.%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1%E7%BC%96%E7%A8%8B.md)
+  - [4.面向对象编程](https://github.com/jianyongqing/Python-Tutorial/blob/master/Notes/04.%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1%E7%BC%96%E7%A8%8B.md)
+  
+  - [5.模块&包](https://github.com/jianyongqing/Python-Tutorial/blob/master/Notes/05.%E6%A8%A1%E5%9D%97%26%E5%8C%85.md)
 
   - [6.图形用户界面和游戏开发](https://github.com/jianyongqing/Python-Tutorial/blob/master/Notes/06.%E5%9B%BE%E5%BD%A2%E7%94%A8%E6%88%B7%E7%95%8C%E9%9D%A2%E5%92%8C%E6%B8%B8%E6%88%8F%E5%BC%80%E5%8F%91.md)
 
