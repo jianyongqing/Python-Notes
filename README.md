@@ -23,7 +23,7 @@
   
   - [5.模块&包](https://github.com/jianyongqing/Python-Tutorial/blob/master/Notes/05.%E6%A8%A1%E5%9D%97%26%E5%8C%85.md)
 
-  - [6.图形用户界面和游戏开发](https://github.com/jianyongqing/Python-Tutorial/blob/master/Notes/06.%E5%9B%BE%E5%BD%A2%E7%94%A8%E6%88%B7%E7%95%8C%E9%9D%A2%E5%92%8C%E6%B8%B8%E6%88%8F%E5%BC%80%E5%8F%91.md)
+  - [6.GUI界面编程与游戏编程](https://github.com/jianyongqing/Python-Tutorial/blob/master/Notes/06.GUI%E7%95%8C%E9%9D%A2%E7%BC%96%E7%A8%8B%E4%B8%8E%E6%B8%B8%E6%88%8F%E7%BC%96%E7%A8%8B.md)
 
   - [7.文件读取&数据存储](https://github.com/jianyongqing/Python-Tutorial/blob/master/Notes/07.%E6%96%87%E4%BB%B6%E8%AF%BB%E5%8F%96%26%E6%95%B0%E6%8D%AE%E5%AD%98%E5%82%A8.md)
 
