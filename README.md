@@ -25,7 +25,7 @@
 
   - [6.GUI界面编程与游戏编程](https://github.com/jianyongqing/Python-Tutorial/blob/master/Notes/06.GUI%E7%95%8C%E9%9D%A2%E7%BC%96%E7%A8%8B%E4%B8%8E%E6%B8%B8%E6%88%8F%E7%BC%96%E7%A8%8B.md)
 
-  - [7.文件读取&数据存储](https://github.com/jianyongqing/Python-Tutorial/blob/master/Notes/07.%E6%96%87%E4%BB%B6%E8%AF%BB%E5%8F%96%26%E6%95%B0%E6%8D%AE%E5%AD%98%E5%82%A8.md)
+  - [7.文件及目录操作](https://github.com/jianyongqing/Python-Tutorial/blob/master/Notes/07.%E6%96%87%E4%BB%B6%E8%AF%BB%E5%8F%96%26%E6%95%B0%E6%8D%AE%E5%AD%98%E5%82%A8.md)
 
   - [8.设计模式&异常处理](https://github.com/jianyongqing/Python-Tutorial/blob/master/Notes/08.%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F%26%E5%BC%82%E5%B8%B8%E5%A4%84%E7%90%86.md)
 
