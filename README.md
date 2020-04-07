@@ -48,11 +48,13 @@
   - [14.让繁琐工作自动化](https://github.com/jianyongqing/Python-Tutorial/blob/master/Notes/14.%E8%AE%A9%E7%B9%81%E7%90%90%E5%B7%A5%E4%BD%9C%E8%87%AA%E5%8A%A8%E5%8C%96.md)
 
 ----------------------------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------------------------
 
 ## :memo: 网络爬虫
 
 ## :watermelon: 数据分析与挖掘
 
+----------------------------------------------------------------------------------------------------------------------------------------
 ----------------------------------------------------------------------------------------------------------------------------------------
 
 ## :art: Wbe开发框架
@@ -63,32 +65,6 @@
 
 - Tornado
 
-----------------------------------------------------------------------------------------------------------------------------------------
 
-----------------------------------------------------------------------------------------------------------------------------------------
-
-## :pencil2: 算法
-
-- 数据结构与算法
-
-> https://github.com/apachecn/Interview
-
-- Leetcode 题解
-
-- 剑指 Offer
-
-- Algorithm Implementation
-
-## :floppy_disk: 数据库
-
-- [数据库系统原理](https://github.com/jianyongqing/Python-Tutorial/blob/master/Notes-Two/%E6%95%B0%E6%8D%AE%E5%BA%93/%E6%95%B0%E6%8D%AE%E5%BA%93%E7%B3%BB%E7%BB%9F%E5%8E%9F%E7%90%86.md)
-
-- MySQL
-  - [MySQL基本用法](https://github.com/jianyongqing/Python-Tutorial/blob/master/Notes-Two/%E6%95%B0%E6%8D%AE%E5%BA%93/MySQL%E5%9F%BA%E6%9C%AC%E7%94%A8%E6%B3%95.md)
-  - [高性能MySQL](https://github.com/jianyongqing/Python-Tutorial/blob/master/Notes-Two/%E6%95%B0%E6%8D%AE%E5%BA%93/%E9%AB%98%E6%80%A7%E8%83%BDMySQL.md)
-  
-- [Redis](https://github.com/jianyongqing/Python-Tutorial/blob/master/Notes-Two/%E6%95%B0%E6%8D%AE%E5%BA%93/Redis.md)
-
-- [MongDB](https://github.com/jianyongqing/Python-Tutorial/blob/master/Notes-Two/%E6%95%B0%E6%8D%AE%E5%BA%93/Redis.md)
 
 
