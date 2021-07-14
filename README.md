@@ -1,4 +1,4 @@
-<h1 align="center">Python-Tutorial</h1>
+<h1 align="center">Python-Notes</h1>
 
 ## A.Python核心语法
 
