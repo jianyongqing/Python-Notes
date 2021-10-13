@@ -16,14 +16,11 @@
   
   - [5.模块&包](https://github.com/jianyongqing/Python-Tutorial/blob/master/Notes/05.%E6%A8%A1%E5%9D%97%26%E5%8C%85.md)
   
-  - [6.异常处理](https://github.com/jianyongqing/Python-Tutorial/blob/master/Notes/08.%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F%26%E5%BC%82%E5%B8%B8%E5%A4%84%E7%90%86.md)
+  - [6.异常处理](https://github.com/jianyongqing/Python-Notes/blob/master/Notes/06.%E5%BC%82%E5%B8%B8%E5%A4%84%E7%90%86.md)
 
   - [7.文件及目录操作](https://github.com/jianyongqing/Python-Tutorial/blob/master/Notes/07.%E6%96%87%E4%BB%B6%E5%8F%8A%E7%9B%AE%E5%BD%95%E6%93%8D%E4%BD%9C.md)
   
-  - [8.GUI界面编程与游戏编程](https://github.com/jianyongqing/Python-Tutorial/blob/master/Notes/06.GUI%E7%95%8C%E9%9D%A2%E7%BC%96%E7%A8%8B%E4%B8%8E%E6%B8%B8%E6%88%8F%E7%BC%96%E7%A8%8B.md)
-
-
-
+  - [8.GUI界面编程与游戏编程](https://github.com/jianyongqing/Python-Notes/blob/master/Notes/08.GUI%E7%95%8C%E9%9D%A2%E7%BC%96%E7%A8%8B%E4%B8%8E%E6%B8%B8%E6%88%8F%E7%BC%96%E7%A8%8B.md)
 
 
 - 第二部分: Python高级编程
@@ -44,6 +41,10 @@
 
   - [14.让繁琐工作自动化](https://github.com/jianyongqing/Python-Tutorial/blob/master/Notes/14.%E8%AE%A9%E7%B9%81%E7%90%90%E5%B7%A5%E4%BD%9C%E8%87%AA%E5%8A%A8%E5%8C%96.md)
 
+- 第四部分: 项目推荐
+  
+  - 项目推荐
+  
 ----------------------------------------------------------------------------------------------------------------------------------------
 ----------------------------------------------------------------------------------------------------------------------------------------
 
